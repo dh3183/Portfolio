@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elbin's Portfolio</title>
-  <link rel="icon" type="image/png" href="imgs/icon.png">
-  <script src="https://kit.fontawesome.com/716d645d29.js" crossorigin="anonymous"></script>
-<link
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap'); />
-<link rel="stylesheet" href="style.css">
-<script src="main.js" defer></script>    
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elbin's Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio for world-renowned software engineer Elbin"
+    />
+    <meta name="author" content="Elbin" />
+    <link rel="icon" type="image/png" href="imgs/icon.png" />
+    <script 
+      src="https://kit.fontawesome.com/716d645d29.js" 
+      crossorigin="anonymous"
+      ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
 <body>
   <!-- Navbar -->
   <nav id="navbar">
@@ -194,8 +204,102 @@
       </div>
     </div>
   </section>
+
    <!-- Work -->
-  <section id="work"></section>
+  <section id="work">
+    <h1>My Work</h1>
+    <h3>Project</h3>
+    <div class="work__categories">
+      <button class="category__btn"> <!-- All -->
+        All <span class="category__count">8</span>
+      </button>
+      <button class="category__btn"> <!-- Front-end btn -->
+        Front-end <span class="category__count">4</span>
+      </button>
+      <button class="category__btn"> <!-- Android btn -->
+        Android <span class="category__count">4</span>
+      </button>
+    </div>
+    <!--Project Img Start-->
+    <div class="work__projects">
+      <div class="work__projects">
+        <a href="" class="project" target="blank">
+          <img
+            src="imgs/project/project1.png"
+            alt="Youtube"
+            class="project__img"
+          />
+          <div class="project__description">
+            <h3>Youtube Site</h3>
+            <span>Clone coding with HTML, CSS</span>
+          </div>
+        </a>
+        <a
+          href="https://github.com/dh3183/Portfolio"
+          class="project"
+          data-type="front-end"
+          target="blank"
+        >
+          <img
+            class="project__img"
+            src="imgs/project/project2.png"
+            alt="navbar"
+          />
+          <div class="project__description">
+            <h3>Responsive Navbar</h3>
+            <span>HTML, CSS with media query</span>
+          </div>
+        </a>
+        <a
+          href="https://github.com/dh3183/Portfolio"
+          class="project"
+          data-type="front-end"
+          target="blank"
+        >
+          <img class="project__img" src="imgs/project/project3.png" alt="" />
+          <div class="project__description">
+            <h3>Shopping mall game</h3>
+            <span>HTML, CSS, JavaScript, Json</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="back-end">
+          <img class="project__img" src="imgs/project/project4.png" alt="" />
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Explanation</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="back-end">
+          <img class="project__img" src="imgs/project/project5.png" alt="" />
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Explanation</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="mobile">
+          <img class="project__img" src="imgs/project/project6.png" alt="" />
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Explanation</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="mobile">
+          <img class="project__img" src="imgs/project/project7.png" alt="" />
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Explanation</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="mobile">
+          <img class="project__img" src="imgs/project/project8.png" alt="" />
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Explanation</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
    <!-- Testimonials -->
   <section id="testimonials"></section>
    <!-- Contact -->
